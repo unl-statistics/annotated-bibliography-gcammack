@@ -9,18 +9,29 @@ citations-hover: false
 
 # Annual Review Article
 
-@annualrevarticle
+@mitchellAlgorithmicFairnessChoices2021
 
 
 # References
 
-@ref1
+@caldersThreeNaiveBayes2010
 
-- Summary
+- This paper looks at ways to change the naive Bayes classifier so that its predictions do not depend on sensitive attributes like gender or race and tests three different methods for making the classifier fair. For most models they tried to achieve some reduction in discrimination however some methods didn’t improve.
 
-- Reliability and relationship to the topic
+- Both others of this paper are university professors in Europe and have an in-depth understanding of the field. This article shows the actual application of methods to prevent the discrimination against sensitive groups.
 
 - Missing pieces
-    - thing 1
+    - I am a bit confused on how they are quantifying the improvement or regression of the discrimination that the models are displaying.
 
-    - thing 2
+    - The goal of the new methods is to prevent sensitive groups from being discriminated against however I don’t understand what the models are doing to prevent the groups still facing discrimination.
+
+@courchaneLessonsLearnedStatistical2000
+
+- In this article the author provides Statistical techniques used to examine whether lending practices were fairly implemented or discriminatory in practice. The authors examine a number of variables such as credit score, grants, relationship, and race to determine if lending institutions were discriminatory in their practices.  
+
+- The authors of this article work at academic institutions and think tanks relating to finance and have the qualification to talk on this subject. This article demonstrates that when building models we must be aware that the original data that is used may be unfair and further propagate unfair practices.
+
+- Missing pieces
+    - I don't understand the underlying statistics of this article well enough to fully grasp the significance of the conclusion they come to about unfair lending practices
+
+    - This article is a little on the older side so I don’t know how statistical techniques/models have improved since the article has come out along with the data collection also seems to be a limiting factor of this examination.
