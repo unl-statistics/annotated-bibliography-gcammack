@@ -1,0 +1,29 @@
+thesis: Algorithmic fairness cannot be fully captured by mathematical definitions alone as fairness depends on policy goals, data choices, and value judgments that are made outiside mathmatical models.
+_____________________________________________________________________________________
+- Introduction: 
+  - Purpose: explains why algorithmic fairness matters and why people care about it now.
+  - support: It gives examples like criminal justice and lending and explains that fairness is not just a math problem but also a social one
+
+- Assumtions: 
+  - Purpose: shows fairness problems start before any model is built
+  - support: explains how choices can make a system unfair even if the model itself seems fair
+
+- Setup:
+  - Purpose: sets up the basic framework and definitions used later in the paper
+  - support: defines things like terms so the authors can talk about fairness in a clear way
+
+- Flavors of Fairness:
+  - Purpose: Explains different fairness definitions that only use observed data
+  - support: goes through metrics like error rates and demographic parity and shows how each one measures fairness
+
+- Additional context:
+  - Purpose: shows that not all fairness definitions can be satisfied at the same time
+  - support: shows math examples like COMPAS to explain why improving fairness in one way can make worse in another
+
+- Way forward:
+  - Purpose: introdtion of fairness ideas that use more than just statistics
+  - support: discusses individual and causal fairness and explains why these approaches are useful but hard to use
+
+-Conclusion:
+  - Purpose: wraps up the main points of the paper
+  - support: reminds the reader that fairness cannot be solved with one formula and that people need to be clear about their intent
