@@ -1,0 +1,22 @@
+---
+title: "Analysis of Annual Review Rhtoric"
+author: "Gage Cammack"
+date: today
+format:
+  html:
+    toc: true
+  pdf:
+    toc: true
+---
+
+## Structure 
+
+The most prevalent decision that the authors made in the construction of their argument was their choice in structure of the annual review. The review follows the pattern of giving an overview of the problem then takes the time to clearly define terms and mathematical concepts in the field and with COMPAS gives an example of how different concepts of fairness are not compatible, finishing with ways that implementing fairness in destination based models could be improved. This structure allows for an easy understanding of the background problem and solution without much knowledge in the field.
+
+## Context
+
+One of their best choices was not only to focus on the pure mathematics of the topic but also acknowledge the surrounding context of what prediction based models are trying to achieve. There are several points where the authors will bring into context what the purpose of prediction based models is and ask what outcomes do we want them to enforce. As they may be different or the same as the data we have to train the model on. The authors point out that it is often the case that groups will make products or tools based around already flawed data leading to results where they fail to be fair as the data already had a flaw in its destination metrics or sampling method. This larger context around the problem not just including the prediction models but also the data used for them allows the reader to better understand the problem that statisticians face when trying to improve fairness in prediction based models.
+
+## Persuasive Strategy
+
+While dealing with what some might consider a touchy subject they do a good job of maintaining a neutral tone. Even while suggesting that some of the policies we have implemented in places such as lending or releasing people for jail may be unfair. That we should take some time to consider what we want out of existing systems when it comes to fairness and how models based on unfair data will continue to reinforce unfair treatment. This makes the argument they are making much broader in its appeal as it avoids alienating anyone who doesn’t believe such practices to be unfair.
